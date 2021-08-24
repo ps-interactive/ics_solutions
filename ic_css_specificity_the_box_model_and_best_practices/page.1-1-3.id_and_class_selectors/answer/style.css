@@ -1,0 +1,13 @@
+.content {
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+#slogan {
+  text-align: center;
+  font-style: italic;
+}
+
+.content.home {
+  border: 0;
+}

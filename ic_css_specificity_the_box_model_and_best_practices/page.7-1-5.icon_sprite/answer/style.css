@@ -1,0 +1,20 @@
+.sidebar a {
+  display: block;
+  line-height: 40px;
+}
+.sidebar .featured,
+.sidebar .sales {
+  background: url(images/sidebar.png) no-repeat;
+  padding-left: 50px;
+}
+.sidebar .sales {
+  background-position: 0 -80px;
+}
+.sidebar .featured:hover,
+.sidebar .featured:focus {
+  background-position: 0 -40px;
+}
+.sidebar .sales:hover,
+.sidebar .sales:focus {
+  background-position: 0 -120px;
+}

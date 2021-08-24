@@ -1,0 +1,11 @@
+a {
+  color: #c44743;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0.5s;
+}
+
+a:hover {
+  color: #d56d68;
+}

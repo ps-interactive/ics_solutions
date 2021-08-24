@@ -1,0 +1,25 @@
+.grid {
+  display: flex;
+  margin: 20px 0;
+}
+
+.grid-wrap {
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 500px) {
+  .grid-wrap {
+    flex-wrap: nowrap;
+  }
+}
+
+.demo .grid-item {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  text-align: center;
+}

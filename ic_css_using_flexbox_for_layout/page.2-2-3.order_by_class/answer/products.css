@@ -1,0 +1,22 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  padding: 10px;
+}
+
+.product-title {
+  margin: 5px 0 0 0;
+}
+
+.product-price {
+  margin: 0
+}
+
+.product--featured {
+  background: purple;
+  color: #ffffff;
+  order: -1;
+}

@@ -1,0 +1,1 @@
+const lostFish = "Never look back.".charAt(0) + "Adventure is out there.".charAt(3) + "Just keep swimming.".charAt(14) + "To infinity... and beyond!".charAt(1)

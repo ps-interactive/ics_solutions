@@ -1,0 +1,25 @@
+.promo {
+  border: 1px solid #e5e5e5;
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 280px;
+  min-height: 350px;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.promo--center {
+  justify-content: center;
+}
+
+.promo--end {
+  justify-content: flex-end;
+}
+
+.promo-title {
+  margin: 0;
+}
+
+.promo-description {
+  margin-top: 8px;
+}

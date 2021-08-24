@@ -1,0 +1,114 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+h1 {
+  color: #000000;
+  margin: 15px 0 15px;
+  text-align: center;
+}
+h2 {
+  color: #333333;
+  margin: 20px 0 5px 0;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 2px;
+}
+h3 {
+  color: #666666;
+  margin: 10px 0 10px 0;
+}
+p {
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+a {
+  color: #440000;
+}
+ul {
+  padding: 0 0 0 30px;
+}
+li {
+  margin-bottom: 5px;
+}
+body {
+  padding: 0;
+  background: #555555 url(images/bg-tile.png) top left repeat;
+}
+ol {
+  padding: 0 0 0 20px;
+}
+.nav {
+  padding: 0;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+  padding-right: 20px;
+}
+.nav li:last-child {
+  padding-right: 0;
+}
+.nav a {
+  color: #ee932a;
+}
+.day-time {
+  color: #444444;
+  margin: 0 0 3px 0;
+}
+.concert-location {
+  color: #888888;
+  margin: 0 0 15px 0;
+}
+.header {
+  padding: 15px;
+  background: #242424 url(images/bg-header.png) top center no-repeat;
+}
+.content-section {
+  padding: 15px;
+  width: 450px;
+  margin: 0 auto;
+  background: #ffffff url(images/bg-content.png) top left repeat;
+}
+.album {
+  border: 2px dashed #bbbbbb;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+}
+.header img {
+  margin: 0 auto 15px auto;
+  display: block;
+}
+.recording-now {
+  width: 440px;
+  height: 200px;
+  background: #ffffff url(images/prependers-recording.jpg) center center no-repeat;
+  border: 1px solid #ee932a;
+  padding: 4px;
+}
+.recording-now p {
+  color: #ffffff;
+  font-size: 28px;
+}
+.bands-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.bands-list h2 {
+  border-bottom: 0;
+  margin: 0;
+}
+.bands-list a {
+  text-decoration: none;
+  color: #ff2244;
+}
+.bands-list img {
+  float: left;
+  padding-right: 15px;
+}
+.bands-list li {
+  border: 1px solid #555555;
+  background-color: #ffffff;
+  height: 120px;
+}

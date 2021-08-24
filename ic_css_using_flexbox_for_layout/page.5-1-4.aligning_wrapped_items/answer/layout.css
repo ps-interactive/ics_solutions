@@ -1,0 +1,27 @@
+body {
+  align-content: space-between;
+  background: #fcfaff;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 400px;
+}
+
+header,
+main,
+footer {
+  flex-basis: 100%;
+  padding: 10px;
+}
+
+header,
+footer {
+  background: #fff;
+}
+
+header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+footer {
+  border-top: 1px solid #e5e5e5;
+}

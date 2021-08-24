@@ -1,0 +1,22 @@
+@model List<ForgingAhead.Models.Equipment>
+<h2>Equipment:</h2>
+
+<form asp-action="Create">
+   <div>
+      <input name="equipmentName" />
+      <input type="submit" value="Add Equipment" />
+   </div>
+</form>
+
+<h4>Equipment:</h4>
+
+<div>
+   <ul>
+      @foreach(var item in Model)
+      {
+         <li>
+            <label>@item.Name</label>
+         </li>
+      }
+   </ul>
+</div>

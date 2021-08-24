@@ -1,0 +1,1 @@
+SELECT id FROM rooms WHERE seats > (SELECT AVG(seats) FROM rooms);     

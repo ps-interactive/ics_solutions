@@ -1,0 +1,9 @@
+.element {
+  color: #c44743;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.element:hover {
+  background-color: rgba(196, 71, 67, 0.10);
+  color: #d56d68;
+}

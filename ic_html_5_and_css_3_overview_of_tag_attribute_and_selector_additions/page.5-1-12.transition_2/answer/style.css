@@ -1,0 +1,8 @@
+.element {
+  background-color: #c44743;
+  transition: background-color 0.6s linear 0.1s;
+}
+
+.element:hover {
+  background-color: #d56d68;
+}

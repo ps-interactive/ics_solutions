@@ -1,0 +1,9 @@
+.categories, .team {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, p {
+  text-align: center;  
+}

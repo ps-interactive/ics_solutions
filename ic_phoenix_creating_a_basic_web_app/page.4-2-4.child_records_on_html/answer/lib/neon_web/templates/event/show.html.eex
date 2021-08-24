@@ -1,0 +1,10 @@
+<h2><%= @event.name %></h2>
+
+<p>Location: <%= @event.location %></p>
+<p>Date: <%= format_date(@event.start_on) %></p>
+
+<ul>
+  <%= for comment <- @event.comments  do %>
+    <li><%= comment.body %></li>
+  <% end %>
+</ul>

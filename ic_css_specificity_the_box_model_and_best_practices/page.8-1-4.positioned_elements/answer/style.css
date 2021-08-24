@@ -1,0 +1,31 @@
+.store {
+  display: block;
+  position: relative;
+}
+.store:before, .store:after {
+  content: '';
+  display: block;
+  position: absolute;
+}
+.store:before {
+  background: url(images/store-before.png);
+  height: 23px;
+  width: 54px;
+  top: -3px;
+  left: -3px;
+}
+.store:after {
+  background: url(images/store-after.png);
+  height: 20px;
+  width: 41px;
+  bottom: -3px;
+  right: -3px;
+}
+.store:hover:before, .store:focus:before {
+  top: -5px;
+  left: -5px;
+}
+.store:hover:after, .store:focus:after {
+  bottom: -5px;
+  right: -5px;
+}

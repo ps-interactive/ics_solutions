@@ -1,0 +1,1 @@
+const index14 = `What can we do ? Keep going!`.charAt(14)

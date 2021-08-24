@@ -1,0 +1,26 @@
+<div>
+  <h1>{{pageTitle}}</h1>
+</div>
+
+<div class="categories">
+  <ul>
+    <li *ngFor="let category of categories">
+      {{category | uppercase}}
+    </li>
+  </ul>
+</div>
+
+<div class="daily-deal">
+  <p>Daily deal:</p>
+  <p class="daily-deal-product">
+    {{dailyDeal.product}} for {{dailyDeal.price | currency:'EUR'}}
+  </p>
+</div>
+
+<div class="team">
+  <ul>
+    <li *ngFor="let member of teamMembers">
+      {{member | titlecase}}
+    </li>
+  </ul>
+</div>

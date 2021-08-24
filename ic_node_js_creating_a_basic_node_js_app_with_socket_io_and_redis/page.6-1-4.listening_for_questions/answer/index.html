@@ -1,0 +1,9 @@
+<script src="/socket.io/socket.io.js"></script>
+<script src="/insertQuestion.js"></script>
+
+<script>
+  let server = io.connect('http://localhost:8080');
+  server.on('question', function (question) {
+    insertQuestion(question);
+  });
+</script>

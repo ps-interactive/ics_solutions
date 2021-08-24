@@ -1,0 +1,12 @@
+header, article {
+  margin: 0 0 20px 0;
+  padding: 20px;
+}
+
+header {
+  background: #ccc;
+  font-size: 16px;
+}
+article {
+  font-size: 14px;
+}

@@ -1,0 +1,10 @@
+aside {
+  float: right;
+  width: 120px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+article {
+  float: left;
+  width: 120px;
+}

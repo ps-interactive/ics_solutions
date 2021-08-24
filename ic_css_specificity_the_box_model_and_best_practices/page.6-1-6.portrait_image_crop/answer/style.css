@@ -1,0 +1,9 @@
+.store li {
+  height: 150px;
+  overflow: hidden;
+  width: 150px;
+}
+.store li img {
+  height: auto;
+  width: 150px;
+}

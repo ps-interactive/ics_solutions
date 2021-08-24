@@ -1,0 +1,1 @@
+SELECT AVG(salary) FROM Actors WHERE country = 'USA';

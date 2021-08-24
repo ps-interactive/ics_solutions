@@ -1,0 +1,9 @@
+@model ForgingAhead.Models.Quest
+<h2>
+  Edit Quest
+</h2>
+
+<form asp-action="Update" asp-controller="Quest">
+  @Html.EditorForModel()
+  <input type="submit" value="Update" class="btn btn-default"/>
+</form>

@@ -1,0 +1,8 @@
+<h2>New Event</h2>
+
+<%= form_for @changeset, event_path(@conn, :new), fn f -> %>
+  <p>Name: <%= text_input f, :name %> </p>
+  <p>Location: <%= text_input f, :location %> </p>
+  <p>Date: <%= datetime_select f, :start_on %> </p>
+  <%= submit "Add" %>
+<% end %>

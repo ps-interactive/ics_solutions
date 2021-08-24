@@ -1,0 +1,19 @@
+@model ForgingAhead.Models.Equipment
+<h2>Equipment:</h2>
+
+<form asp-action="Create">
+  <div>
+    <input name="equipmentName" />
+    <input type="submit" value="Add Equipment" />
+  </div>
+</form>
+
+<h4>Equipment:</h4>
+
+<div>
+  <ul>
+    <li>
+      <label>@Model.Name</label>
+    </li>
+  </ul>
+</div>

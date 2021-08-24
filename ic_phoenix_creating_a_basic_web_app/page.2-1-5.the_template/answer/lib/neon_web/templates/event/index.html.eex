@@ -1,0 +1,7 @@
+<h2>All Events</h2>
+
+<ul>
+  <%= for event <- @events do %>
+    <li><%= event.name %></li>
+  <% end %>
+</ul>

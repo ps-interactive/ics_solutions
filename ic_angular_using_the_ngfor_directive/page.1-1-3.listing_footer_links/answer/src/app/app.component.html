@@ -1,0 +1,7 @@
+<div class="footer">
+  <ul>
+    <li *ngFor="let link of footerLinks; let isLast = last">
+      {{link}} {{isLast ? "© ACME 2020" : ""}}
+    </li>
+  </ul>
+</div>

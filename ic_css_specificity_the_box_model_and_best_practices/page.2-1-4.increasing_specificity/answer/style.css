@@ -1,0 +1,12 @@
+.main li a {
+  color: #7ab2c1;
+}
+.main .active a {
+  color: #826c55;
+}
+.primary p {
+  font-size: 12px;
+}
+.primary .copyright {
+  font-size: 10px;
+}

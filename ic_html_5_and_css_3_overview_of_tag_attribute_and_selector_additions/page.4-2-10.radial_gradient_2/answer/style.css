@@ -1,0 +1,15 @@
+.element {
+  background: url(painting-01.jpg) top left no-repeat, url(painting-02.jpg) center no-repeat;
+} 
+
+.tagline {
+  color: #fff;
+}
+
+.nav {
+  background: linear-gradient(0deg, #3e606f, #324d59);
+}
+
+.masthead {
+  background: radial-gradient(circle 400px, #1e3e4d, #102028);
+}

@@ -1,0 +1,5 @@
+.element {
+  background-image: url(painting-01.jpg), url(painting-02.jpg);
+  background-position: top left, center;
+  background-repeat: no-repeat, no-repeat;
+}

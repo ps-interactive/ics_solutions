@@ -1,0 +1,10 @@
+p:first-of-type {
+  color: #999;
+  font-style: italic;
+}
+.hours li:nth-of-type(odd) {
+  background-color: #c5c9cf;
+}
+.hours li:nth-of-type(4n+1) {
+  background-color: #c3e3f3;
+}

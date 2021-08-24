@@ -1,0 +1,11 @@
+<div class="navbar">
+  <div *ngIf="isLoggedIn">
+    <a href="#">Log out</a>
+  </div>
+  <div *ngIf="isLoggedIn && isVerified">
+    <a href="#">Invite friends</a>
+  </div>
+  <div *ngIf="isLoggedIn || hasAccessLink">
+    <a href="#">Leave comment</a>
+  </div>
+</div>

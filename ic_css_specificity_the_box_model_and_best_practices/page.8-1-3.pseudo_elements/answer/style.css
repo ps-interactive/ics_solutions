@@ -1,0 +1,7 @@
+p:first-of-type:first-line {
+  font-weight: bold;
+}
+p:before {
+  content: '->';
+  margin: 5px;
+}

@@ -1,0 +1,14 @@
+p {
+  background: #e0e2e6;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  min-height: 140px;
+  width: 260px;
+  padding: 10px;
+}
+h1 {
+  font-size: 20px;
+  font-family: tahoma, arial, sans-serif;
+  margin: 0 0 20px 0;
+}

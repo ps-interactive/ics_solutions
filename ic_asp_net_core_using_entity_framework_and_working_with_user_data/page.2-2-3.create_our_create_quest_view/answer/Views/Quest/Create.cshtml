@@ -1,0 +1,22 @@
+@model ForgingAhead.Models.Quest
+<h2>
+  Create Quest
+</h2>
+
+<form asp-action="Create" asp-controller="Quest" >
+  <div>
+    <h4>Quest</h4>
+    <hr/>
+    <div>
+      <label asp-for="Name"></label>
+      <input asp-for="Name"/>
+    </div>
+    <div>
+      <label asp-for="IsActive"></label>
+      <input asp-for="IsActive"/>
+    </div>
+    <div>
+      <input type="submit" value="Create" class="btn btn-default"/>
+    </div>
+  </div>
+</form>

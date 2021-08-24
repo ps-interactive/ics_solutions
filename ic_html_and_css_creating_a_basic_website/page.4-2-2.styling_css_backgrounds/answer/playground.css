@@ -1,0 +1,9 @@
+body {
+  background: #d2d2d2 url(bg-body.png) top right repeat;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: #badf00 url(bg-box.png) top center repeat-y;
+}

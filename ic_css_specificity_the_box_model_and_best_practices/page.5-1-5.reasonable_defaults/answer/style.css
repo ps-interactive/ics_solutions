@@ -1,0 +1,16 @@
+p {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 20px;
+  font-family: tahoma, arial, sans-serif;
+  margin: 0 0 20px 0;
+}
+p.history {
+  background: #e0e2e6;
+  min-height: 140px;
+  padding: 10px;
+  width: 260px;
+}
