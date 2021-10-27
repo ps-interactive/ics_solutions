@@ -17,6 +17,7 @@ defmodule NeonWeb.Router do
     pipe_through :browser
 
     get "/", EventController, :index
+    get "/:id", EventController, :show
 
     get "/events/new", EventController, :new        
     post "/events", EventController, :create
