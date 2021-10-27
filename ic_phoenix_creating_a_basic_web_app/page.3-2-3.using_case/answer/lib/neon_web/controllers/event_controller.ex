@@ -22,7 +22,7 @@ defmodule NeonWeb.EventController do
       {:ok, _} ->
         conn
           |> put_flash(:info, "Successfully added new event")
-          |> redirect(to: event_path(conn, :index))
+          |> redirect(to: Routes.event_path(conn, :index))
       {:error, changeset} ->
         conn
           |> put_flash(:error, "Error adding new event")
