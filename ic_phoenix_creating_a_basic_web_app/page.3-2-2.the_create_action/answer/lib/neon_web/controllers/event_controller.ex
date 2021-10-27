@@ -14,6 +14,6 @@ defmodule NeonWeb.EventController do
   def create(conn, %{"event" => event_params}) do
     changeset = cast(%Event{}, event_params, [:name, :location, :start_on])
     Repo.insert(changeset)
-    redirect(conn, to: event_path(conn, :index))
+    redirect(conn, to: Routes.event_path(conn, :index))
   end
 end
