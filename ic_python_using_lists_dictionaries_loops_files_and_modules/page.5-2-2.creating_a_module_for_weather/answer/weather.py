@@ -1,7 +1,7 @@
 import requests
 
 def current_weather():
-    url = "http://api.openweathermap.org/data/2.5/weather?q=Orlando,fl&units=imperial&appid=2de143494c0b295cca9337e1e96b00e0"
+    url = "http://api.openweathermap.org/data/2.5/weather?q=London&units=imperial&appid=67da29cb91129f1a68c1c06c1be92daa"
     r = requests.get(url)
 
     weather_json = r.json()
