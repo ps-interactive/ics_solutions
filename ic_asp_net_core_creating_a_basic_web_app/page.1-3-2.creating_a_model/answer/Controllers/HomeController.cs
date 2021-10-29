@@ -3,7 +3,7 @@ using ForgingAhead.Models;
 using System;
 namespace ForgingAhead.Controllers
 {
-  class HomeController : Controller
+  public class HomeController : Controller
   {
      public IActionResult Index()
      {
