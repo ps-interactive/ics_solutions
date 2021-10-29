@@ -7,5 +7,3 @@ def lotto_numbers():
         lotto_nums.append(random.randint(1, 53))
 
     return lotto_nums
-
-print(lotto_numbers())
