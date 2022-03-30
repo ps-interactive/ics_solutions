@@ -14,7 +14,7 @@ public class BlogTitles {
         webTitles = new HashSet<>();
     }
 
-    public void initalizeTitles() {
+    public void initializeTitles() {
         javaTitles.add("Leveraging Java Data Structures");
         javaTitles.add("Java Lambdas: Getting Started");
         javaTitles.add("My First Spring Boot App");
