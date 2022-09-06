@@ -4,11 +4,9 @@ let express = require('express');
 
 let options = {
   protocol: "http:",
-  host: "search.twitter.com",
+  host: "openlibrary.org",
   pathname: '/search.json',
-  query: {
-    q: "codeschool"
-  }
+  query: { q: "programming" }
 };
 
 let searchURL = url.format(options);
@@ -20,3 +18,4 @@ app.get('/', function(req, res) {
 });
 
 app.listen(8080);
+
